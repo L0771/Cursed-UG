@@ -37,7 +37,7 @@ obj.name = "cursed-straight-rail-ug"
 obj.icon = "__Cursed-UG__/graphics/icons/straight-rail-ug/cursed-straight-rail-ug.png"
 obj.minable.result = "cursed-straight-rail-ug"
 obj.collision_mask = { }
-obj.rail_category = "underground"
+-- obj.rail_category = "underground"
 obj.pictures = cursedrailpicturesinternal({{"metals", "metals"}, {"backplates", "backplates"}, {"ties", "ties"}, {"stone_path", "stone-path"}})
 data.raw[obj.type][obj.name] = obj
 
@@ -46,6 +46,6 @@ obj.name = "cursed-curved-rail-ug"
 obj.icon = "__Cursed-UG__/graphics/icons/curved-rail-ug/cursed-curved-rail-ug.png"
 obj.minable.result = "cursed-curved-rail-ug"
 obj.collision_mask = { }
-obj.rail_category = "underground"
+-- obj.rail_category = "underground"
 obj.pictures = cursedrailpicturesinternal({{"metals", "metals"}, {"backplates", "backplates"}, {"ties", "ties"}, {"stone_path", "stone-path"}})
 data.raw[obj.type][obj.name] = obj

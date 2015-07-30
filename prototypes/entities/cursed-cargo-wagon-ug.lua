@@ -9,7 +9,7 @@ obj.back_light = nil
 obj.stand_by_light = nil
 obj.max_speed = obj.max_speed * 0.75
 obj.friction_force = obj.friction_force * 2
-obj.rail_category = "underground"
+-- obj.rail_category = "underground"
 obj.pictures.filenames =
 	{
 		"__Cursed-UG__/graphics/entities/cargo-wagon-ug/cargo-wagon-spritesheet-1-ug.png",
