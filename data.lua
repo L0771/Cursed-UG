@@ -1,6 +1,3 @@
--- require("prototypes.groups")
-
-
 local obj = util.table.deepcopy(data.raw["rail-category"]["regular"])
 obj.name = "underground"
 data.raw[obj.type][obj.name] = obj

@@ -8,3 +8,14 @@ obj.effects[3] = { type = "unlock-recipe", recipe = "cursed-locomotive-ug" }
 obj.effects[4] = { type = "unlock-recipe", recipe = "cursed-cargo-wagon-ug" }
 obj.prerequisites = {"railway"}
 data.raw[obj.type][obj.name] = obj
+
+
+local obj = util.table.deepcopy(data.raw["technology"]["railway"])
+obj.name = "cursed-railway"
+obj.effects = {}
+obj.effects[1] = { type = "unlock-recipe", recipe = "cursed-straight-rail" }
+obj.effects[2] = { type = "unlock-recipe", recipe = "cursed-curved-rail" }
+obj.effects[3] = { type = "unlock-recipe", recipe = "cursed-locomotive" }
+obj.effects[4] = { type = "unlock-recipe", recipe = "cursed-cargo-wagon" }
+obj.prerequisites = {"railway"}
+data.raw[obj.type][obj.name] = obj

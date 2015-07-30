@@ -1,5 +1,5 @@
 
-game.oninit(function()
+game.on_init(function()
 	for k,force in pairs(game.forces) do
 		if force.technologies["railway"].researched == true then
 			force.technologies["cursed-railway-ug"].enabled = true
