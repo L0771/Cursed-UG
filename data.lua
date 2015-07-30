@@ -13,10 +13,10 @@ require("prototypes.entities.cursed-rail-ug")
 
 
 		--[[Items]]--
-require("prototypes.Items.cursed-cargo-wagon-ug")
-require("prototypes.Items.cursed-car-ug")
-require("prototypes.Items.cursed-locomotive-ug")
-require("prototypes.Items.cursed-rail-ug")
+require("prototypes.items.cursed-cargo-wagon-ug")
+require("prototypes.items.cursed-car-ug")
+require("prototypes.items.cursed-locomotive-ug")
+require("prototypes.items.cursed-rail-ug")
 
 		--[[Recipes]]--
 require("prototypes.recipes.cursed-cargo-wagon-ug")
